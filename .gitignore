@@ -1,5 +1,8 @@
 # Based on https://raw.githubusercontent.com/github/gitignore/main/Node.gitignore
 
+# Build Outputs
+output/
+
 # Logs
 
 logs
@@ -11,7 +14,6 @@ lerna-debug.log*
 .pnpm-debug.log*
 
 # Caches
-
 .cache
 
 # Diagnostic reports (https://nodejs.org/api/report.html)
@@ -173,3 +175,4 @@ dist
 
 # Finder (MacOS) folder config
 .DS_Store
+main.js

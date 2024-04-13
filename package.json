@@ -2,6 +2,10 @@
   "name": "vreveal",
   "module": "main.js",
   "type": "module",
+  "scripts": {
+    "dev": "bun run ./main.js",
+    "build": "bun build --compile --minify ./main.js --outfile ./output/V-Reveal.exe"
+  },
   "devDependencies": {
     "@types/bun": "latest"
   },
